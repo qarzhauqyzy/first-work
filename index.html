@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+ background-color: white; 
+ display: flex;
+ flex-direction: column;
+
+}
+.head{
+  background-color: gray;
+  opacity: 90%;
+  width: 100%;
+  height: 100px;
+}
+h1{
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+.themiddle{
+   display: flex;
+   flex-direction: row;
+}
+.firstrow{
+    background-color: rgb(228, 224, 224);
+    display: flex; 
+    flex-direction: column;
+    width: 30vh;
+    height: 100vh;
+    padding: 10px;
+}
+.in{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+  
+}
+.secondrow{
+    width: 120vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(228, 224, 224); */
+}
+.thirdrow{
+    width: 40vh;
+    background-color: rgb(252, 252, 252);
+    display: flex; 
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 70px;
+    height: 70px;
+
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+}
+
+span{
+    font-size: medium;
+    color: gray;
+}
+.inthesecondrowfirstcolumn , .inthesecondrowsecondcolumn{
+    display: flex;
+    justify-content: space-between;
+}
+.inthesecondrowthirdcolumn{
+    /* width: 35%; */
+     display: flex; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+}
+
+  </style>
+</head>
+<body>
+    <h1 class="head">Документы</h1>
+    <div class="themiddle">
+    <div class="firstrow">
+    <button class="in">
+      <img src="first.jpg" ><br>
+      <span>Место хранен..</span>
+    </button><br><br><br>
+    <button class="in">
+        <img src="second.jpg" style="background-color: white; opacity: 70%;" >
+        <span>Облачный ди..</span>
+      </button>
+    </div>
+    <div class="secondrow">
+    <div class="insecondrow">
+        <button>></button>
+        <button>Все</button>
+        <button>Документ</button>
+        <button>Заметки </button>
+        <button>Рисунки</button>
+         <button>Медиа</button>
+    </div>
+    <div class="inthesecondrowfirstcolumn">
+        <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Аннотация</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Доска</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Alarms</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Audiobooks</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>DCIM</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Documents</span>
+          </button>
+    </div>
+    <div class="inthesecondrowsecondcolumn">
+        <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>download</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>file</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>kitaptar</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>movies      </span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>musics</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>notes</span>
+          </button>
+    </div>
+    <div class="inthesecondrowthirdcolumn">
+        <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>pictures</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>podcasts</span>
+          </button>
+          <button class="">
+            <img src="yellowfolder.jpg" ><br>
+            <span>Ringtones</span>
+          </button>
+    </div>
+    </div>
+    <div class="thirdrow">
+     <img src="yellowfolder.jpg" style="width: 250px; height: 250px;"><br><br><br><br><br>
+     <h3>Ringtones</h3>
+     <p>Time 2023/11/29</p>
+    </div>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
